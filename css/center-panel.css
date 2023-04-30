@@ -1,0 +1,228 @@
+/* curosal */
+.background {
+    padding: 50px 0;
+    background: linear-gradient(#0b2937e6, #0b2937e6), url("cta-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    font-family: "Dosis";
+}
+
+.testimonials .testimonial-item {
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial-item .testimonial-img {
+    width: 100px;
+    /* height: 100px; */
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+}
+
+.testimonial-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff;
+}
+
+.testimonial-item {
+    text-align: center;
+}
+
+.testimonial-item h4 {
+    font-size: 14px;
+    color: #ddd;
+    margin: 0 0 15px 0;
+}
+
+.testimonial-item p {
+    font-style: italic;
+    margin: 0 auto 10px auto;
+    color: #eee;
+    font-size: 20px;
+}
+
+.bi-quote {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 26px;
+}
+
+.testimonial-item div {
+    width: 100px;
+    margin: auto;
+}
+
+/*  */
+.bbg-color {
+    background-color: #f4fbfe;
+    padding: 100px 0px;
+    font-family: "Dosis";
+}
+
+.para {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa !important;
+}
+
+.box .card {
+    border-radius: 7px;
+    margin: 10px 0px;
+}
+
+.box .card div img {
+    border-radius: 7px 7px 0px 0px;
+    position: relative;
+}
+
+.padd-div {
+    padding: 10px 20px 0px;
+}
+
+.box .card .div h5 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #0f394c;
+}
+
+.social {
+    bottom: 99px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    /* background: rgba(255, 255, 255, 0.85); */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social a {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    justify-content: center;
+    transition: color 0.3s;
+}
+
+.social a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.social a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background: rgba(73, 181, 231, 0.8);
+}
+
+.team-member:hover .social {
+    opacity: 1;
+}
+
+
+/* gallaery */
+.gallery-sec {
+    padding: 30px 0px;
+    font-family: "Dosis";
+}
+
+.img-div {
+    margin: 2px 0px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.img-div:hover img {
+    transform: scale(1.1);
+}
+
+.img-div img {
+    transition: all 1s ease;
+    /* overflow: hidden; */
+}
+
+/* contact */
+.contact {
+    padding: 100px 0;
+    font-family: "Dosis";
+}
+
+.btns button {
+    background: #49b5e7;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+
+.con-add {
+    padding: 30px 0px;
+}
+
+.info .address,
+.info .email,
+.info .phone {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.info .address div p,
+.info .email div p,
+.info .phone div p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #2079a1;
+}
+
+.info .address div h4,
+.info .email div h4,
+.info .phone div h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #0f394c;
+    font-family: "Open Sans";
+}
+
+.info .address,
+.info .email,
+.info .phone {
+    padding: 10px 0px;
+}
+
+.info i {
+    font-size: 20px;
+    color: #49b5e7;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #ebf7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.info i:hover {
+    background-color: #49b5e7;
+    color: #fff;
+}

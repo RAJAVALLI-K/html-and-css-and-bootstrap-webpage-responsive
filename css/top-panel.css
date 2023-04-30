@@ -1,0 +1,227 @@
+.nav-link,
+.dropdown-menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px 0 10px 30px; */
+    font-family: "Dosis";
+    font-size: 15px;
+    font-weight: 600;
+    color: #0f394c;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.arrow {
+    padding: 0px 20px;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.dropdown-item {
+    padding: 7px 20px;
+}
+
+.active,
+.nav-link:hover,
+.dropdown-menu li a:hover {
+    color: #49b5e7;
+}
+
+/* home-sec */
+.home-sec {
+    width: 100%;
+    background: #f9f9f9;
+    font-family: "Dosis";
+}
+
+.rows {
+    padding: 170px 0px 30px;
+}
+
+.home-div h1 {
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 56px;
+    color: #0f394c;
+    text-transform: uppercase;
+}
+
+.home-div p {
+    color: #1c698c;
+    margin: 10px 0 0 0;
+    font-size: 20.4px;
+    font-weight: 500;
+}
+
+.home-div button {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 25px;
+    background: #49b5e7;
+    border: none;
+}
+
+.home-div button a {
+    color: #fff;
+}
+
+
+
+/* about-section */
+.about {
+    padding: 100px 0;
+    font-family: "Dosis";
+}
+
+.video {
+    background: url(../img/about.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#49b5e7 50%, rgba(73, 181, 231, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    overflow: hidden;
+}
+
+.play-btn::after {
+    content: "";
+    position: absolute;
+    /* left: 49%;
+    top: 53%; */
+    top: 49px;
+    left: 10px;
+    right: 0;
+    margin: auto;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid white;
+    z-index: 1;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.title a {
+    color: #343a40;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title a:hover {
+    color: #49b5e7;
+}
+
+.description {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 88px;
+    height: 44px; */
+    padding: 10px 15px;
+    border: 2px solid #d0ecf9;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.icon i {
+    color: #49b5e7;
+    font-size: 20px;
+}
+
+.icon:hover {
+    background-color: #49b5e7;
+}
+
+.icon i:hover {
+    color: white;
+}
+
+.icon-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 3%;
+}
+
+.content h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f394c;
+    margin-bottom: 15px;
+}
+
+.content {
+    padding: 50px;
+    gap: 2%;
+}
+
+.content p,
+.count p ,.head p{
+    font-family: "Open Sans";
+    font-weight: 500;
+}
+
+/* number sec */
+
+.bg-img {
+    background: linear-gradient(#ffffffcc, #ffffffcc), url("counts-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 80px 0 60px 30px;
+    z-index: -1;
+    font-family: "Dosis";
+}
+
+.bg-img .container {
+    z-index: 1;
+}
+
+.count {
+    text-align: center;
+}
+
+.count h3 {
+    color: #343a40;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.count p {
+    margin: 0px 0px 20px;
+}
+
+.counters div span {
+    font-size: 44px;
+    font-weight: 700;
+    display: block;
+    color: #49b5e7;
+}
+
+.counters div p {
+    font-size: 15px;
+}
